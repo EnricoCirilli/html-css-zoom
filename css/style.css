@@ -4,14 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: black;
+    
+}
 /* common */
 .wrapper {
+    padding: 60px;
     width: 100%;
-    height: 100vh;
-    border: 5px solid green;
-    background-color: rgb(28, 23, 23);
-
+    height: 80vh;
 }
 
 .col {
@@ -22,8 +23,6 @@
 }
 
 .item {
-    border: 2px solid black;
-    background-color: brown;
     width: calc(100% / 7);
     /* debug */
     height: 15vh;
@@ -40,18 +39,20 @@
 
 }
 img{
-    width: 14vw;
-    height: 14vh;
+    width: 12.7vw;
+    height: 12.7vh;
+    
 }
 
 .item-name {
     position: absolute;
-    top: 78%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    top: 12vh;
+    left: 10px;
     background-color: grey;
     color: white;
-    opacity: 0.3;
+    opacity: 0.7;
     width: 30%;
-    trspa
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
 }
