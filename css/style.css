@@ -1,35 +1,57 @@
 /* universal set up */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* common */
-.wrapper{
+.wrapper {
     width: 100%;
     height: 100vh;
     border: 5px solid green;
     background-color: rgb(28, 23, 23);
-    padding: 40px;
+
 }
-.col{
+
+.col {
     display: flex;
     flex-wrap: wrap;
-   
+
+
 }
+
 .item {
-   background-color: blueviolet;
-   border: 2px solid red;
-   width: calc(100% / 7);
-   /* debug */
-   height: 15vh;
-  
+    border: 2px solid black;
+    background-color: brown;
+    width: calc(100% / 7);
+    /* debug */
+    height: 15vh;
+    display: flex;
+    position: relative;
 }
-.item-img{
-    
+
+.item-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
 }
-.item-name{
-   
-    
+img{
+    width: 14vw;
+    height: 14vh;
+}
+
+.item-name {
+    position: absolute;
+    top: 78%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    opacity: 0.3;
+    width: 30%;
+    trspa
 }
